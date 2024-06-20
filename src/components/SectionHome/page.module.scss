@@ -1,0 +1,29 @@
+.section {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.p {
+    font-size: 50px;
+}
+
+.content1 {
+    width: 500px;
+}
+
+.content2 {
+    width: 400px;
+
+    button {
+        background-color: black;
+        color: #fff;
+        width: 321px;
+        height: 53px;
+        padding: 13px 25px;
+        margin-top: 30px;
+    }
+}

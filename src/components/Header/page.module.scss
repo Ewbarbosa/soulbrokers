@@ -1,0 +1,25 @@
+.menuNav {
+    width: 100vw;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 60px;
+}
+
+.ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;    
+    font-size: 16px;
+    gap: 8px;
+}
+.li {
+    padding: 8px;
+}
+
+.logo {
+    width: 167px;
+    height: 65px;
+    cursor: pointer;
+}
