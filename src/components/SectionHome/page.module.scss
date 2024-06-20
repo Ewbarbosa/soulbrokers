@@ -1,3 +1,10 @@
+@font-face{ 
+    font-family: 'ClashDisplay-Regular';
+    src: url('/fonts/ClashDisplay-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .section {
     width: 100vw;
     display: flex;
@@ -7,12 +14,13 @@
     margin-top: 25px;
 }
 
-.p {
-    font-size: 50px;
-}
-
 .content1 {
     width: 500px;
+
+    p{
+        font-size: 50px;
+        font-family: 'ClashDisplay-Regular';
+    }
 }
 
 .content2 {
@@ -25,5 +33,9 @@
         height: 53px;
         padding: 13px 25px;
         margin-top: 30px;
+    }
+
+    p{
+        color: var(--silver);
     }
 }
